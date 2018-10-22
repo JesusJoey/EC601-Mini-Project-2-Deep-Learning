@@ -14,6 +14,6 @@ This project aims at buliding *training, testing and validation sets* to recgoni
 * The dataset is downloaded from kaggle. It has 25000 images in the *train* folder which have been tagged as cat or dog already and 12500 images in the *test* folder without tagging.
 * I use tflearn to build the CNN layers, I build four convolution layers of relu and two fully-connected layers. I set the training rate as 1e-4 and store the traning and testing data as npy. The model is demonstated in catsvsdogs.py.
 
-### The user api
+### The User Api
 * If you want to classify some images, for example 10 images of cats and dogs. Just put them in the front of the *test* folder. In catsvsdogs.py, in the last line, write:*plot_image(2,5)* and you will get the result.
 * If you want to classify cars and trucks,put 10 images in either the folder of cars or trucks and they will be automatically generated as test set and you will also get the result by writing *demo(2,5)*
