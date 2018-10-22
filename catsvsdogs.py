@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#Author- Yang Qiao
 import cv2
 import numpy as np 
 import os
